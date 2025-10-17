@@ -1,14 +1,71 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+      }
+      nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+      address ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+      }
+      main section {
+        padding: 40px 20px;
+      }
+      .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0;
+        list-style: none;
+      }
+      .team-list li {
+        width: 250px;
+        text-align: center;
+      }
+      .team-list img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      footer {
+        padding: 20px;
+        background-color: #f5f5f5;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <header>
       <nav>
-        <!-- Логотип як посилання на головну -->
+        <!-- Логотип как ссылка на index.html -->
         <a href="./index.html">WebStudio</a>
         <ul>
           <li><a href="#">Studio</a></li>
@@ -16,7 +73,6 @@
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-
       <address>
         <ul>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -67,40 +123,24 @@
 
       <section>
         <h2>Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <li>
-            <img
-              src="./images/im1111.jpg"
-              alt="Mark Guerrero — Product Designer"
-              width="264"
-            />
+            <img src="./images/im1111.jpg" alt="Mark Guerrero — Product Designer" />
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
-            <img
-              src="./images/im2222.jpg"
-              alt="Tom Ford — Frontend Developer"
-              width="264"
-            />
+            <img src="./images/im2222.jpg" alt="Tom Ford — Frontend Developer" />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
-            <img
-              src="./images/im3333.jpg"
-              alt="Camila Garcia — Marketing"
-              width="264"
-            />
+            <img src="./images/im3333.jpg" alt="Camila Garcia — Marketing" />
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img
-              src="./images/img444.jpg"
-              alt="Daniel Wilson — UI Designer"
-              width="264"
-            />
+            <img src="./images/im4444.jpg" alt="Daniel Wilson — UI Designer" />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
